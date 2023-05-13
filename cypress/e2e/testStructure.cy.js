@@ -15,7 +15,7 @@ describe('Context: My First Test', () => {
         //similar to afterMethod in TestNG
     })
 
-    it('Opening a we application', () => {
+    it('Opening a web application', () => {
         cy.visit('/registration_form');
         
     })
